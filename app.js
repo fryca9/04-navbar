@@ -3,3 +3,16 @@
 // add - add class
 // remove - remove class
 // toggle - toggles class
+
+const dropdown = document.querySelector(".nav-toggle");
+const links = document.querySelector(".links");
+
+dropdown.addEventListener("click", (e) => {
+  // if (links.classList.contains("show-links")) {
+  //   links.classList.remove("show-links");
+  // } else {
+  //   links.classList.add("show-links");
+  // }
+
+  links.classList.toggle("show-links");
+});
